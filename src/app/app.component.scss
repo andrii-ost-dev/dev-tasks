@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  color: #e5eb00;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+mat-card {
+  width: 100%;
+  max-width: 150px;
+  float: left;
+  background: #454546;
+  margin: 2em;
+  border: 1px solid #646464;
+  border-radius: 10px;
+}
+
+mat-divider {
+  background: #646464;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  width: 100%;
+}
+
+
+.display-content {
+  width: 80%
+}
